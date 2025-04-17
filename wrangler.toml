@@ -1,11 +1,11 @@
-name = "kirlia"
+name = "bro"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 
 [[kv_namespaces]]
-binding = "kirlia"
-id = "550470a19aa14d338e4c7d8b03f40a73"
+binding = "bro"
+id = "18d80e2d7a61467c9f817be27d794c3d"
 
 [build]
 command = "cargo install worker-build && worker-build --release"
